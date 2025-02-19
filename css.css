@@ -1,0 +1,50 @@
+body {
+    background-color: #1d1f21;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    overflow-x: hidden;
+}
+
+  
+* {
+    box-sizing: border-box;
+}
+
+.portfolio-box {
+    border-radius: 5px; 
+    background-color: rgb(29, 29, 29, .7);
+    box-shadow: 0 0 5px rgb(29, 29, 29, .7);
+    margin: 20px 30px; 
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    height: 65vmin;
+    width: 55vmin;
+    overflow-y: scroll;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-size: 1.75vmin;
+}
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin-bottom: 8px;
+}
+  
+@media only screen and (max-width: 700px) {
+.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+}
+}
+  
+@media only screen and (max-width: 500px) {
+.responsive {
+    width: 100%;
+}
+}
