@@ -13,6 +13,21 @@ body {
     box-sizing: border-box;
 }
 
+.about-box {
+    border-radius: 5px;
+    background-color: rgb(29, 29, 29, .7);
+    box-shadow: 0 0 5px rgb(29, 29, 29, .7);
+    margin: auto;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    height: auto;
+    width: 90%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-size: 2vmin;
+}
+
 .portfolio-box {
     border-radius: 5px; 
     background-color: rgb(29, 29, 29, .7);
